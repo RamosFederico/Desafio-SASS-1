@@ -1,0 +1,22 @@
+{
+  "name": "desafio-sass-entregar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamosFederico/Desafio-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamosFederico/Desafio-5/issues"
+  },
+  "homepage": "https://github.com/RamosFederico/Desafio-5#readme",
+  "description": ""
+}
